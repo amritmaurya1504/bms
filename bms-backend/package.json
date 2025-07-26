@@ -1,0 +1,40 @@
+{
+  "name": "bookmyscreen",
+  "version": "1.0.0",
+  "description": "Movie Booking System",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/server.ts",
+    "seed:theaters": "ts-node src/scripts/seed-theaters.ts",
+    "seed:movies": "ts-node src/scripts/seed-movies.ts"
+  },
+  "author": "ProgrammingWithAmrit",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailgen": "^2.0.29",
+    "mongoose": "^8.16.1",
+    "nodemailer": "^7.0.4",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.0.10",
+    "@types/nodemailer": "^6.4.17",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
